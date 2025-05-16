@@ -1,10 +1,20 @@
 <user>
-<name>Shohjahon</name>
-<surname>Rametov</surname>
-<education> 
-    <unname>lycuem</unname>
-    <faculty>law</faculty>
-
-</education>
-
+    <name>Shohjahon</name>
+    <surname>Rametov</surname>
+    <educations>
+        <education type="lycuem"> 
+            <unname>TSLU-al</unname>
+            <faculty>law</faculty>
+        </education>
+        <education type="school">   
+            <name>15</name> 
+        </education>
+    </educations>
 </user>
+<myfriend>
+    <name>Dastonbek</name>
+    <surname>Xamrayev</surname>
+     <education type="school">
+        <schoolname>15</schoolname> 
+     </education>
+</myfriend>
