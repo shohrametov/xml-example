@@ -1,6 +1,10 @@
 <user>
 <name>Shohjahon</name>
 <surname>Rametov</surname>
-<unname>lycuem</unname>
-<faculty>law</faculty>
+<education> 
+    <unname>lycuem</unname>
+    <faculty>law</faculty>
+
+</education>
+
 </user>
