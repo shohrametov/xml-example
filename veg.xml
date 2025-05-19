@@ -16,7 +16,7 @@
         <item id="9" price="9000">Rice</item>
       </pruduct>
       <pruduct id="4" name="Tubers">
-        <item id="10" price="4000">Sweet Potato</item>
+        <item id="10" price="4000">Potato</item>
         <item id="11" price="4000">Radish</item>
         <item id="12" price="4000">Potato</item>
       </pruduct>
@@ -33,7 +33,7 @@
       <pruduct id="7" name="Meat">
         <item id="19" price="15000">Drumstick</item>
         <item id="20" price="15000">Steak</item>
-        <item id="21" price="15000">Boiled Egg</item>
+        <item id="21" price="15000">Egg</item>
       </pruduct>
     </products>
   
@@ -55,5 +55,5 @@
       <relation type="same-price"><id1>19</id1><id2>20</id2></relation>
       <relation type="same-price"><id1>20</id1><id2>21</id2></relation>
     </relations>
-  <market/>
+  </market>
   
