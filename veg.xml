@@ -1,0 +1,59 @@
+<document>
+    <categories>
+      <category id="1" name="Vegetables">
+        <item id="1" price="5000">Tomato</item>
+        <item id="2" price="6000">Cabbage</item>
+        <item id="3" price="5000">Spinach</item>
+      </category>
+      <category id="2" name="Fruits">
+        <item id="4" price="7000">Orange</item>
+        <item id="5" price="8000">Strawberry</item>
+        <item id="6" price="7000">Banana</item>
+      </category>
+      <category id="3" name="Cereals">
+        <item id="7" price="9000">Wheat</item>
+        <item id="8" price="10000">Oats</item>
+        <item id="9" price="9000">Rice</item>
+      </category>
+      <category id="4" name="Tubers">
+        <item id="10" price="4000">Sweet Potato</item>
+        <item id="11" price="4000">Radish</item>
+        <item id="12" price="4000">Potato</item>
+      </category>
+      <category id="5" name="Legumes">
+        <item id="13" price="11000">Beans</item>
+        <item id="14" price="12000">Chickpeas</item>
+        <item id="15" price="11000">Lentils</item>
+      </category>
+      <category id="6" name="Dairy">
+        <item id="16" price="8000">Milk</item>
+        <item id="17" price="9000">Butter</item>
+        <item id="18" price="8000">Cheese</item>
+      </category>
+      <category id="7" name="Meat">
+        <item id="19" price="15000">Drumstick</item>
+        <item id="20" price="15000">Steak</item>
+        <item id="21" price="15000">Boiled Egg</item>
+      </category>
+    </categories>
+  
+    <relations>
+      <relation type="same-price"><id1>1</id1><id2>3</id2></relation>
+  
+      <relation type="same-price"><id1>4</id1><id2>6</id2></relation>
+  
+      <relation type="same-price"><id1>7</id1><id2>9</id2></relation>
+  
+      <relation type="same-price"><id1>10</id1><id2>11</id2></relation>
+      <relation type="same-price"><id1>11</id1><id2>12</id2></relation>
+  
+      <relation type="same-price"><id1>13</id1><id2>15</id2></relation>
+  
+      <relation type="same-price"><id1>5</id1><id2>16</id2></relation>
+      <relation type="same-price"><id1>16</id1><id2>18</id2></relation>
+  
+      <relation type="same-price"><id1>19</id1><id2>20</id2></relation>
+      <relation type="same-price"><id1>20</id1><id2>21</id2></relation>
+    </relations>
+  </document>
+  

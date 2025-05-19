@@ -1,0 +1,28 @@
+<sale>
+    <cars>
+         <car id="1">
+            <model>Malibu</model>
+            <price>22.000$</price>
+         </car>
+        <car id="2">
+             <model>matiz</model> 
+             <price>8.000$</price>
+        </car> 
+          <car id="3">
+            <model>Nexia</model>
+            <price>10.000$</price>
+          </car>
+    </cars>
+    <colors>
+          <color id="1">black</color>
+          <color id="2">blue</color>
+          <color id="3">red</color>
+          <color id="4">white</color>
+    </colors>  
+    <relations>
+        <relation car="1" color="1"></relation>
+        <relation car="2" color="3"></relation>
+        <relation car="3" color="4"></relation>
+        <relation car="1" color="2"></relation>
+    </relations>
+</sale>
